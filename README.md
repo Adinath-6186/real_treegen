@@ -23,10 +23,18 @@ TreeGen is a lightweight command-line tool that generates visual directory trees
 
 
 > -  store exe in folder and add path to your **System Environment PATH** so you can use `treegen` globally from CMD or PowerShell
-> -  📁 Paste the folder you want to scan **into the same folder as `treegen.exe`**
+> -  If you didn't add TreeGen to your system environment PATH:
+   🔁 **Paste the folder you want to scan into the same folder as `treegen.exe`**,  
+      then run the command like this:
+>    
+ ```bash
+treegen.exe YourFolderName
 
+> - View
+📁 TreeGen/
+├── treegen.exe
+└── MyProject/
 
-3. 🖱️ Double-click or run from CMD:
 ---
 
 ## 🚀 Usage
