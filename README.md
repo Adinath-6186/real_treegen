@@ -23,7 +23,7 @@ TreeGen is a lightweight command-line tool that generates visual directory trees
 _No installation required. Just run it._
 
 
-👉 [Download `treegen.zip`](https://github.com/Adinath-6186/treegen/treegen.zip)  
+👉 [Download `treegen.zip`]((https://github.com/Adinath-6186/treegen/archive/refs/heads/main.zip))  
 _No installation required. Just run it._
 
 2. ✅ Accept permissions if prompted
