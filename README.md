@@ -33,6 +33,7 @@ _Contains full repository including the EXE. Unzip and run._
    
 2. If you downloaded the ZIP:
    - Right-click → **Extract All**
+   - **Run the set-path.bat file he automatic set path System Environment Varible**
 3. 🌐 **Optional: Add to System PATH**
  To run treegen from anywhere:
 
