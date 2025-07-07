@@ -26,8 +26,28 @@ _No installation required. Just run it._
 👉 [Download `treegen.zip`](https://github.com/Adinath-6186/treegen/archive/refs/heads/main.zip)  
 _No installation required. Just run it._
 
-2. ✅ Accept permissions if prompted
+## 🧾 Instructions
+Download the .zip file from the link above.
 
+### Extract the contents (Right-click → Extract All).
+
+Double-click treegen.exe to run the program.
+
+If Windows shows a warning:
+
+Click "More Info" → "Run Anyway"
+
+This is normal for unsigned apps.
+
+## 🛡️ Tips to Avoid Antivirus Warnings
+Distribute only the zipped .exe, not the raw .exe file.
+
+Make sure your .exe is clean using VirusTotal.
+
+Optionally sign the EXE using a certificate to show as "trusted publisher".
+
+
+2. ✅ Accept permissions if prompted
 
 > -  store exe in folder and add path to your **System Environment PATH** so you can use `treegen` globally from CMD or PowerShell
 > -  If you didn't add TreeGen to your system environment PATH:
