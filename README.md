@@ -9,9 +9,9 @@ TreeGen is a lightweight command-line tool that generates visual directory trees
 - 🌐 Global CLI support (use `treegen` in any terminal)
 - 💨 No Python or setup required — just install and run!
 
- ```
 
 ## 📦 Installation
+
 
 ### ✅ Option 1: Download `.exe` or `.zip` (Recommended)
 
@@ -50,19 +50,24 @@ Open:
 
    Open Terminal to run the command
       
-```bash
+``` bash
 treegen.exe MyProject
-# Or
+```
+### Or
+
+```
 treegen MyProject
-
+```
+```
 treegen "C:\Users\YourName\Desktop\MyFolder"
-
-> - View
+```
+> - View then you not store System Environment PATH
+```
 📁 Folder/
 ├── treegen.exe
 └── MyProject/
 
-`---`
+```
 
 ## 🛡️ Security & Antivirus Notice
   When downloading or running treegen.exe, your system might show warnings like:
@@ -103,3 +108,20 @@ treegen "C:\MyProject" --format text
 
 # Show help
 treegen --help
+```
+
+
+---
+
+### 👇 Output on GitHub:
+
+### 📤 Sample Output
+
+```text
+📁 MyProject/
+├── 📂 src/
+│   ├── main.py
+│   └── utils.py
+├── 📂 data/
+│   └── input.txt
+└── README.md
