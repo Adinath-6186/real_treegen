@@ -111,9 +111,14 @@ treegen --help
 ```
 
 
----
+
+
 
 ### 👇 Output on GitHub:
+![tree](https://github.com/user-attachments/assets/93484f92-76ab-4137-a4db-cc9b42db194a)
+[tree.txt](https://github.com/user-attachments/files/21096120/tree.txt)
+
+
 
 ### 📤 Sample Output
 
