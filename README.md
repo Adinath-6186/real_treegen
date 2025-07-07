@@ -9,60 +9,85 @@ TreeGen is a lightweight command-line tool that generates visual directory trees
 - 🌐 Global CLI support (use `treegen` in any terminal)
 - 💨 No Python or setup required — just install and run!
 
----
+ ```
 
 ## 📦 Installation
 
-### ✅ Option 1: Download the exe or zip file (Recommended)
+### ✅ Option 1: Download `.exe` or `.zip` (Recommended)
 
-> ⚠️ Windows SmartScreen may show a warning for "Unknown Publisher". or virus detected  This is normal for unsigned apps. You can click **More info → Run anyway or download**.
+> ⚠️ **Note**: Windows Defender or SmartScreen may show a warning like  
+> “Unknown Publisher” or “File may be dangerous”.  
+> This is normal for unsigned apps. Click **More Info → Run Anyway** or **Keep** the file when prompted.
 
-## 📥 Download
+### 📥 Download
 
-👉 [Download `treegen.exe`](https://github.com/Adinath-6186/treegen/releases/latest/download/treegen.exe)  
-_No installation required. Just run it._
+👉 [`treegen.exe`](https://github.com/Adinath-6186/treegen/releases/latest/download/treegen.exe)  
+_Direct executable. No setup required._
 
+👉 [`treegen.zip`](https://github.com/Adinath-6186/treegen/archive/refs/heads/main.zip)  
+_Contains full repository including the EXE. Unzip and run._
 
-👉 [Download `treegen.zip`](https://github.com/Adinath-6186/treegen/archive/refs/heads/main.zip)  
-_No installation required. Just run it._
+## 🧾 Quick Start Instructions
 
-## 🧾 Instructions
-Download the .zip file from the link above.
+1. **Download** either the `.exe` or `.zip` file from the links above.
+   
+2. If you downloaded the ZIP:
+   - Right-click → **Extract All**
+3. 🌐 **Optional: Add to System PATH**
+ To run treegen from anywhere:
 
-### Extract the contents (Right-click → Extract All).
+Copy the folder path where treegen.exe is stored
+Open:  
+ - Start → Search for Environment Variables
+ - Click “Environment Variables”
+ - Under “System Variables”, find and edit the Path
+ - Click “New” → Paste the folder path → OK
+ - added the folder path in your **System Environment PATH** so you can use `treegen` globally from CMD or PowerShell
 
-Double-click treegen.exe to run the program.
-
-If Windows shows a warning:
-
-Click "More Info" → "Run Anyway"
-
-This is normal for unsigned apps.
-
-## 🛡️ Tips to Avoid Antivirus Warnings
-Distribute only the zipped .exe, not the raw .exe file.
-
-Make sure your .exe is clean using VirusTotal.
-
-Optionally sign the EXE using a certificate to show as "trusted publisher".
-
-
-2. ✅ Accept permissions if prompted
-
-> -  store exe in folder and add path to your **System Environment PATH** so you can use `treegen` globally from CMD or PowerShell
-> -  If you didn't add TreeGen to your system environment PATH:
-   🔁 **Paste the folder you want to scan into the same folder as `treegen.exe`**,  
+ - If you didn't add **TreeGen** to your system environment PATH:
+   🔁 **Paste the exe you want to scan into the same folder as `treegen.exe`**,  
       then run the command like this:
->    
- ```bash
-treegen.exe YourFolderName
+
+   Open Terminal to run the command
+      
+```bash
+treegen.exe MyProject
+# Or
+treegen MyProject
+
+treegen "C:\Users\YourName\Desktop\MyFolder"
 
 > - View
-📁 TreeGen/
+📁 Folder/
 ├── treegen.exe
 └── MyProject/
 
----
+`---`
+
+## 🛡️ Security & Antivirus Notice
+  When downloading or running treegen.exe, your system might show warnings like:
+
+### ❗ "Windows protected your PC"
+Reason: TreeGen is currently not digitally signed.
+
+Fix: Click More Info → then click Run Anyway
+
+### ❗ "This file is not commonly downloaded and may be dangerous"
+Reason: Browser (Chrome/Edge) doesn't recognize the file yet.
+
+Fix: Click the download arrow → then choose Keep or Keep Anyway
+
+### ❗ Antivirus blocks or deletes the file
+Reason: Some antivirus programs flag small .exe tools by default.
+
+Fix:
+
+Restore from quarantine (check your antivirus dashboard)
+
+Add TreeGen to your antivirus exception list if needed
+
+
+
 
 ## 🚀 Usage
 
